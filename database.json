@@ -6,6 +6,18 @@
         "status": "todo",
         "updatedAt": "2025-03-06T10:00:00"
     },
+    "10": {
+        "createdAt": "2025-03-29 11:23:49",
+        "description": "Pierwsze zadanie",
+        "status": "todo",
+        "updatedAt": "2025-03-29 11:23:49"
+    },
+    "11": {
+        "createdAt": "2025-03-29 11:24:58",
+        "description": "Pierwsze zadanie",
+        "status": "todo",
+        "updatedAt": "2025-03-29 11:24:58"
+    },
     "2": {
         "createdAt": "2025-03-05T09:30:00",
         "description": "Review pull request",
