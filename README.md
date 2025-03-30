@@ -1,5 +1,4 @@
 # Task - Simple Task Manager
-My implementation of the task tracker from roadmap.sh.
 Task is a simple and intuitive task manager that allows you to add, edit, delete, and manage tasks directly from the command line.
 
 ---
