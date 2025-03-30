@@ -1,7 +1,5 @@
-﻿# Task-Tracker-RM
-My implementation of the task tracker from roadmap.sh
 # Task - Simple Task Manager
-
+My implementation of the task tracker from roadmap.sh.
 Task is a simple and intuitive task manager that allows you to add, edit, delete, and manage tasks directly from the command line.
 
 ---
@@ -11,7 +9,7 @@ Task is a simple and intuitive task manager that allows you to add, edit, delete
 To install **Task**, clone the repository and compile the code:
 
 ```bash
-git clone https://github.com/your-repo/task.git
+git clone https://github.com/marcel-gruszecki/Task-Tracker-RM
 cd task
 make
 ```
