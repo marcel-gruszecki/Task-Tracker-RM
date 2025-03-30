@@ -5,12 +5,15 @@ Task is a simple and intuitive task manager that allows you to add, edit, delete
 
 ## 🎮 Installation
 
-To install **Task**, clone the repository and compile the code:
+To install Task, clone the repository and compile the code using CMake:
 
-```bash
+```sh
 git clone https://github.com/marcel-gruszecki/Task-Tracker-RM
-cd task
-make
+cd Task-Tracker-RM
+mkdir build && cd build
+cmake ..
+cmake --build .
+
 ```
 
 Now you can run the program using:
