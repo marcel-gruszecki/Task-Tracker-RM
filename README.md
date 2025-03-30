@@ -67,13 +67,13 @@ task list
 
 ### 🌟 Filtering tasks by status
 ```bash
-task list done
+task list-done
 ```
 ```bash
-task list todo
+task list-todo
 ```
 ```bash
-task list in-progress
+task list-in-progress
 ```
 
 ---
