@@ -1,9 +1,10 @@
 # Task - Simple Task Manager
-Task is a simple and intuitive task manager that allows you to add, edit, delete, and manage tasks directly from the command line.
 
----
+[![C++17](https://img.shields.io/badge/C%2B%2B-17-blue.svg)](https://isocpp.org/std/the-standard)
 
-## 🎮 Installation
+Task is a simple and intuitive command-line task manager that allows you to add, edit, delete, and manage tasks efficiently.
+
+## Installation
 
 To install Task, clone the repository and compile the code using CMake:
 
@@ -13,76 +14,69 @@ cd Task-Tracker-RM
 mkdir build && cd build
 cmake ..
 cmake --build .
-
 ```
 
-Now you can run the program using:
-```bash
+After building, you can run the program using:
+
+```sh
 ./task
 ```
 
----
+## Features
 
-## ✨ Features
+- Add new tasks
+- Update task descriptions
+- Delete tasks
+- Mark tasks as "in progress" or "done"
+- Display all tasks or filtered lists
 
-Task allows you to:
-- ➕ Add tasks
-- 🔄 Update task descriptions
-- ❌ Delete tasks
-- ✅ Mark tasks as "in progress" or "done"
-- 🔍 Display all or filtered tasks
+## Usage
 
----
+### Adding a new task
 
-## 🗒 Usage
-
-### 📓 Adding a new task
-```bash
+```sh
 task add "Buy groceries"
 ```
-**Output:** `Task added successfully (ID: 1)`
+Task added successfully (ID: 1)
 
-### 🔄 Updating a task
-```bash
+### Updating a task
+
+```sh
 task update 1 "Buy groceries and cook dinner"
 ```
 
-### ❌ Deleting a task
-```bash
+### Deleting a task
+
+```sh
 task delete 1
 ```
 
-### ⏳ Marking a task as "in progress"
-```bash
+### Marking a task as "in progress"
+
+```sh
 task mark-in-progress 1
 ```
 
-### ✅ Marking a task as "done"
-```bash
+### Marking a task as "done"
+
+```sh
 task mark-done 1
 ```
 
-### 📝 Displaying the task list
-```bash
+### Displaying the task list
+
+```sh
 task list
 ```
 
-### 🌟 Filtering tasks by status
-```bash
+### Filtering tasks by status
+
+```sh
 task list-done
-```
-```bash
 task list-todo
-```
-```bash
 task list-in-progress
 ```
 
----
+## License
 
-## 📦 License
-This project is licensed under the MIT License. Full details can be found in the `LICENSE` file.
-
-
-
-
+This project is licensed under the MIT License. For details, see the LICENSE file.
